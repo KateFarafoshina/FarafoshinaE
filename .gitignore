@@ -1,0 +1,76 @@
+# ==========================================
+# Unreal Engine
+# ==========================================
+
+# Build artifacts
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Generated project files
+*.sln
+*.xcodeproj
+*.xcworkspace
+
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userprefs
+
+# Rider / IntelliJ
+.idea/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Crash reports
+Saved/Crashes/
+
+# Autosaves & Backups
+Saved/Autosaves/
+Saved/Backup/
+
+# Cooked / Staged builds
+Saved/Cooked/
+Saved/StagedBuilds/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Shader cache
+DerivedDataCache/
+
+# macOS
+.DS_Store
+
+# Linux
+*.swp
+*.swo
+
+# ==========================================
+# Plugins
+# ==========================================
+
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# ==========================================
+# Keep source files
+# ==========================================
+
+!Config/
+!Content/
+!Source/
+!Plugins/
+!Plugins/*/Source/
+!Plugins/*/Config/
+!Plugins/*/Content/
